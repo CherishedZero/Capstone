@@ -2,6 +2,9 @@ package Capstone;
 
 import java.time.LocalDate;
 
+// TODO Remove calculations from Quotes/Policies
+// TODO Use a Factory Builder Pattern
+
 public class Quote {
     private int id;
     private LocalDate generationDate;

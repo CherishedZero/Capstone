@@ -59,6 +59,7 @@ public class Vehicle extends Insurable {
 
     @Override
     public double getAdditionalFactor() {
+        // TODO double check vehicle age
         double factor = 1;
         int accidents = this.getCustomer().getAccidents();
         if (accidents == 1) {
