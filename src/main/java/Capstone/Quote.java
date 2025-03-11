@@ -15,6 +15,24 @@ public class Quote {
     private boolean active;
     private Insurable insuredItem;
 
+    //Base
+
+    //id
+    //genDate
+    //accDate
+    //Age
+    //Premium
+    //active
+    //CusID
+
+    //Address
+    //Heating
+    //Urban
+    //Coverage
+
+
+
+
     public Quote(int id, LocalDate generationDate, String type, boolean active, Insurable insuredItem) {
         this.id = id;
         this.generationDate = generationDate;
